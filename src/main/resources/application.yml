@@ -1,0 +1,7 @@
+# Spring配置
+spring:
+  jackson:
+    default-property-inclusion: always
+  profiles:
+        active: dev #正式环境
+#    active: prod # 本地环境
